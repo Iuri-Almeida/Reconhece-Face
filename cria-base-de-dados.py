@@ -50,13 +50,9 @@ def cria_Base_De_Dados():
 	# 		OpenCV irá entender que é para abrir o vídeo pela webcam.
 	captura = cv2.VideoCapture(args.video)
 
-	# landmarks = "cnn/shape_predictor_68_face_landmarks.dat"
-
 	# Função reponsável por varrer toda a imagem procurando em que local dela
 	# tem uma face.
 	detector = dlib.get_frontal_face_detector()
-
-	# predictor = dlib.shape_predictor(landmarks)
 
 	# Contador de frames.
 	numero_Frame = 0
@@ -104,8 +100,6 @@ def cria_Base_De_Dados():
 		# Função enumerate() é responsável por enumerar cada face com seu
 		# respectivo número de identificação.
 		for k, retangulo in enumerate(faces):
-
-			# shape = predictor(frame, retangulo)
 
 			# Diferente da função detectMultiScale() da biblioteca OpenCV,
 			# a função get_frontal_face_detector() não retorna os vértices
