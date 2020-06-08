@@ -10,7 +10,7 @@ Esse programa foi escrito na linguagem Python e usa as bibliotecas <a href="http
 
 * Reconhece Face
 
-Esse programa foi escrito na linguagem Python e usa as bibliotecas <a href="https://opencv.org/">OpenCV</a>, <a href="http://dlib.net/">DLib</a> e <a href="https://pypi.org/project/face-recognition/">Face Recognition</a> como base. Ele faz o reconheciento de faces em vídeo ou imagem, no entanto, para poder fazer esse reconhecimento é preciso que o usuário já tenha uma base de dados pronta e salva na pasta faces-codificadas com a extensão .cod. Tudo isso pode ser criado a partir do programa cria-base-de-dados.py no mesmo projeto. Após isso, o usuário pode acessar o programa todo pela linha de comando (terminal), passando o caminho para imagens ou vídeos que deseja fazer o reconhecimento.
+Esse programa foi escrito na linguagem Python e usa as bibliotecas <a href="https://opencv.org/">OpenCV</a> e <a href="https://pypi.org/project/face-recognition/">Face Recognition</a> como base. Ele faz o reconheciento de faces em vídeo ou imagem, no entanto, para poder fazer esse reconhecimento é preciso que o usuário já tenha uma base de dados pronta e salva na pasta faces-codificadas com a extensão .cod. Tudo isso pode ser criado a partir do programa cria-base-de-dados.py no mesmo projeto. Após isso, o usuário pode acessar o programa todo pela linha de comando (terminal), passando o caminho para imagens ou vídeos que deseja fazer o reconhecimento.
 
 # Como funciona?
 
